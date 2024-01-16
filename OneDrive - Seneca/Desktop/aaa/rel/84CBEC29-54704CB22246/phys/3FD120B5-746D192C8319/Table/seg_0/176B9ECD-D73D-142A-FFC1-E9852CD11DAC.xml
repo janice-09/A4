@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMERS" directorySegmentName="seg_0" id="176B9ECD-D73D-142A-FFC1-E9852CD11DAC">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F481F174-EDC6-E2CA-75C9-B7AC4A752AEA</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COUNTRY" id="200B85D4-570E-CCB3-8020-8E692DEA1DF7">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMERNUMBER" id="21F92E56-684A-AFDA-91BB-E897CE6EB806">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="34A01565-4A7B-C938-D51D-0C701D24487F">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTALCODE" id="3E0CB860-9378-4B1D-8DA9-2DB621FACDFF">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CONTACTFIRSTNAME" id="48485B3B-C659-829C-C90F-2A785A0FFEFB">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALESREPEMPLOYEENUMBER" id="494D1E8C-C076-C7DE-769B-86BA8BADCBE8">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="7907990D-E040-AFA6-4D86-8DBA4D270605">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="93C58F55-49B6-0993-9919-3EB5CE20850D">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMERNAME" id="9C25CD3E-7D5C-9B47-FCA1-B575ECF30E8B">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESSLINE1" id="A31557C5-F849-F003-559E-3261619E0E1C">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREDITLIMIT" id="A5451E7E-148A-32CC-29DC-D04CEBC022F7">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ADDRESSLINE2" id="C1E5F7C2-A645-8A8E-5551-C8C08080A6FD">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CONTACTLASTNAME" id="C3B85A89-A788-225B-6525-5949F6ABF2A5">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CUST_SALESREP_FK" id="952F9C8B-1A24-76C3-A064-D13E802E446D">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMERS_PK" id="172AB291-2EAD-E622-A09E-67D433418050">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:39 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<segment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<indexSegment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

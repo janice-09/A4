@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D34A57FE-8761-D2CC-CF69-D1FF2D0A212E" schemaObject="054EF8B5-1C8B-3C8F-4E82-42CC37B72300" name="PRODUCTLINES">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>PRODUCTLINES</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTLINE" id="DF17E6C7-2DB9-3641-8177-404815853195">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTLINES</sourceObjSchema>
+<sourceObjName>PRODUCTLINE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXTDESCRIPTION" id="D9CB6EDA-878B-B16B-D411-6BE460CE9418">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTLINES</sourceObjSchema>
+<sourceObjName>TEXTDESCRIPTION</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HTMLDESCRIPTION" id="49A04B4D-07A4-17EE-AE1F-6EF7B94A7473">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTLINES</sourceObjSchema>
+<sourceObjName>HTMLDESCRIPTION</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGE" id="6F62A92C-BE6D-2278-8B7A-EC89264BC0AB">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTLINES</sourceObjSchema>
+<sourceObjName>IMAGE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2650C69D-942E-A2CF-E126-AA323BCDC5ED" schemaObject="054EF8B5-1C8B-3C8F-4E82-42CC37B72300" name="PRODUCTLINES_PK">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>SYS_C003224804</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:35 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF17E6C7-2DB9-3641-8177-404815853195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

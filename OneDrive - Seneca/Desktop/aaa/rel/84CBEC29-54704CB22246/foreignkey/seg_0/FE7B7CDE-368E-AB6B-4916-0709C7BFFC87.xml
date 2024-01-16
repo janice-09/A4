@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE7B7CDE-368E-AB6B-4916-0709C7BFFC87" containerWithKeyObject="E553CCC3-A4F1-8049-21DE-9315551CFD61" localFKIndex="2A9978C9-E39C-9677-2627-3B1452612345" name="ORDDET_ORDNUM_FK">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>ORDDET_ORDNUM_FK</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<referredTableLongName>DBS211_241NAA09.ORDERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F3F975F-F268-61D0-B540-AC04BC1437E8</referredTableID>
+<keyObject>E4D8EFEB-43CC-3F9A-66F0-0BA2A98D4B37</keyObject>
+<referredKeyID>E4D8EFEB-43CC-3F9A-66F0-0BA2A98D4B37</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORDERNUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

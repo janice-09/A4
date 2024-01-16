@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRODUCTLINES" directorySegmentName="seg_0" id="D34A57FE-8761-D2CC-CF69-D1FF2D0A212E">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F481F174-EDC6-E2CA-75C9-B7AC4A752AEA</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HTMLDESCRIPTION" id="49A04B4D-07A4-17EE-AE1F-6EF7B94A7473">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMAGE" id="6F62A92C-BE6D-2278-8B7A-EC89264BC0AB">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEXTDESCRIPTION" id="D9CB6EDA-878B-B16B-D411-6BE460CE9418">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTLINE" id="DF17E6C7-2DB9-3641-8177-404815853195">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCTLINES_PK" id="2650C69D-942E-A2CF-E126-AA323BCDC5ED">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:39 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<segment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<indexSegment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

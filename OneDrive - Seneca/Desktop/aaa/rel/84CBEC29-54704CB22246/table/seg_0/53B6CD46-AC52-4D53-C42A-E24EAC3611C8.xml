@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53B6CD46-AC52-4D53-C42A-E24EAC3611C8" schemaObject="054EF8B5-1C8B-3C8F-4E82-42CC37B72300" name="PRODUCTS">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>PRODUCTS</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTCODE" id="B99A09DC-3DF1-E27D-F5D8-DCFA0E08AB00">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCTCODE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTNAME" id="2397B7DE-B875-CC92-0DA3-25D94E75AB39">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCTNAME</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTLINE" id="3BAA7CFD-994D-D988-14B9-FFFA6DF89E5A">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCTLINE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62AF2A50-4EEA-99EE-E4B0-F29D620EEB7F" referredColumn="DF17E6C7-2DB9-3641-8177-404815853195"/>
+</associations>
+</Column>
+<Column name="PRODUCTSCALE" id="05F0E029-E579-BC4B-EC52-7492DAA65356">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCTSCALE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTVENDOR" id="C2687978-CADB-6DE6-39F8-C062AB8BDB2E">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCTVENDOR</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTDESCRIPTION" id="6D57806E-37A7-0D0C-E43E-987FE83CEC84">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCTDESCRIPTION</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITYINSTOCK" id="2E901B77-2312-1AD6-4DCF-321EF707B829">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>QUANTITYINSTOCK</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUYPRICE" id="379C0125-25DF-0A01-1BD6-A71ACDF82FCA">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>BUYPRICE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MSRP" id="35E90CE6-6C13-BEF3-767E-D3206972C2A0">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>MSRP</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E3A30FB-7A12-B025-E8A7-E07F92605423" schemaObject="054EF8B5-1C8B-3C8F-4E82-42CC37B72300" name="PRODUCTS_PK">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>SYS_C003224814</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:35 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99A09DC-3DF1-E27D-F5D8-DCFA0E08AB00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953104B5-8DDE-BE4E-2682-778D5F5DC11C" name="PROD_LINE_FK">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BAA7CFD-994D-D988-14B9-FFFA6DF89E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8E9D66D-FA26-68B1-FCB3-0BFD823125F1" schemaObject="054EF8B5-1C8B-3C8F-4E82-42CC37B72300" name="PAYMENTS">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>PAYMENTS</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERNUMBER" id="BCC24053-6298-D867-E595-BD1230BD36B2">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PAYMENTS</sourceObjSchema>
+<sourceObjName>CUSTOMERNUMBER</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F58A95FA-C4AA-2765-5869-61FD76723CED" referredColumn="21F92E56-684A-AFDA-91BB-E897CE6EB806"/>
+</associations>
+</Column>
+<Column name="CHECKNUMBER" id="89FF2092-91BA-F938-D85B-61BA57068F17">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PAYMENTS</sourceObjSchema>
+<sourceObjName>CHECKNUMBER</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENTDATE" id="510F8B5E-A535-9117-5519-40593ABB4D5A">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PAYMENTS</sourceObjSchema>
+<sourceObjName>PAYMENTDATE</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="F11B5A54-CA8D-8F42-553E-265D487C8E35">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>PAYMENTS</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F42CE5B-3434-0C44-F4C4-D006C3DACBC1" schemaObject="054EF8B5-1C8B-3C8F-4E82-42CC37B72300" name="PAYMENTS_PK">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>SYS_C003224835</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:35 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC24053-6298-D867-E595-BD1230BD36B2"/>
+<colUsage columnID="89FF2092-91BA-F938-D85B-61BA57068F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7017C10B-421A-77AC-E430-246A85F627E1" name="PAYMENTS_CUSTNUM_FK">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC24053-6298-D867-E595-BD1230BD36B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

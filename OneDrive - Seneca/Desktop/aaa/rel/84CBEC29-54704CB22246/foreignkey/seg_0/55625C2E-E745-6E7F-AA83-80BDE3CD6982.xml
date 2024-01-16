@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55625C2E-E745-6E7F-AA83-80BDE3CD6982" containerWithKeyObject="E5BCFD46-F45F-A7D8-2050-50F5E917CA4E" localFKIndex="498945F9-98A3-0CF4-DC79-58776116E74A" name="EMP_OFFICE_FK">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>EMP_OFFICE_FK</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<referredTableLongName>DBS211_241NAA09.OFFICES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F5B5B04-77BC-06D3-333C-9832C9EFC3CE</referredTableID>
+<keyObject>E3262721-A820-017A-0619-5042A79D4EA1</keyObject>
+<referredKeyID>E3262721-A820-017A-0619-5042A79D4EA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OFFICECODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

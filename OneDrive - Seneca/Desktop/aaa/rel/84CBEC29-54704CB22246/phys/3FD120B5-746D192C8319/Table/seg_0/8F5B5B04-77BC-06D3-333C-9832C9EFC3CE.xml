@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="OFFICES" directorySegmentName="seg_0" id="8F5B5B04-77BC-06D3-333C-9832C9EFC3CE">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F481F174-EDC6-E2CA-75C9-B7AC4A752AEA</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COUNTRY" id="07BB0AE6-6A1D-1175-C197-F50F078051E7">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFICECODE" id="0B37FB06-70F2-455E-BB06-B2F9C79F3FCF">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="10FAA621-43A6-567C-3F7E-E3FA3C9F2674">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TERRITORY" id="15552559-0918-812B-9472-A207027339D0">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESSLINE2" id="2D56FFB9-A639-B690-598B-44C9CD6A52CF">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="806FCB83-7CE6-1DDF-531F-1122B18350D6">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="80F1A10E-EA42-27A9-002A-FE2CC4233BBE">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTALCODE" id="9BC69F8B-9C57-5CBF-FE3C-5A166FB586E8">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESSLINE1" id="D985F15B-7387-C8C5-3F7F-D803B60FAE54">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="OFFICES_PK" id="E3262721-A820-017A-0619-5042A79D4EA1">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:39 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<segment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<indexSegment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

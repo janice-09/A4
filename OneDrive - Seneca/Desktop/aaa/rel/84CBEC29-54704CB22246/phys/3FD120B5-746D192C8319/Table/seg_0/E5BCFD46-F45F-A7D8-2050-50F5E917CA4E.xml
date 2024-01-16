@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLOYEES" directorySegmentName="seg_0" id="E5BCFD46-F45F-A7D8-2050-50F5E917CA4E">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F481F174-EDC6-E2CA-75C9-B7AC4A752AEA</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="JOBTITLE" id="03141BD8-6A6B-B1FC-2722-73256A3DCA0E">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRSTNAME" id="0BFBAE45-D64D-5D1C-47B2-8967D7EE24B6">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="2B6E5E94-02A0-E1D8-F7C5-9DA7BF198E5E">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OFFICECODE" id="6839CD0D-A66B-F72F-436D-4FE77686F494">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LASTNAME" id="8E462C35-FD00-B964-D2A0-7888BFBCB160">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPORTSTO" id="B12B8020-4D31-9C2D-1889-367351234FB4">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="EXTENSION" id="BAD0DE82-CE90-ECE9-D31D-B221C4E9CA3F">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEENUMBER" id="E01EE86E-7BD1-1CEB-3E65-A9D7E44021D3">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:34 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_RTEMP_FK" id="3014377B-5AFD-A285-E623-828300C1FEA3">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_OFFICE_FK" id="498945F9-98A3-0CF4-DC79-58776116E74A">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYEES_PK" id="701986E6-F44C-A710-14E6-545341B401DB">
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:39 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<schemaObject>054EF8B5-1C8B-3C8F-4E82-42CC37B72300</schemaObject>
+<segment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</segment>
+<tableSpace>9B6F944A-C5D9-1F8E-867D-8462AC8FF82F</tableSpace>
+<indexSegment>35067F02-4B5C-FF72-16B9-2C3A141A1F50</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

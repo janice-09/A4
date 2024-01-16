@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62AF2A50-4EEA-99EE-E4B0-F29D620EEB7F" containerWithKeyObject="53B6CD46-AC52-4D53-C42A-E24EAC3611C8" localFKIndex="953104B5-8DDE-BE4E-2682-778D5F5DC11C" name="PROD_LINE_FK">
+<sourceConnName>DBS211_Winter2024</sourceConnName>
+<sourceObjSchema>DBS211_241NAA09</sourceObjSchema>
+<sourceObjName>PROD_LINE_FK</sourceObjName>
+<createdBy>장서영</createdBy>
+<createdTime>2024-01-12 18:25:44 UTC</createdTime>
+<ownerDesignName>aaa</ownerDesignName>
+<referredTableLongName>DBS211_241NAA09.PRODUCTLINES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D34A57FE-8761-D2CC-CF69-D1FF2D0A212E</referredTableID>
+<keyObject>2650C69D-942E-A2CF-E126-AA323BCDC5ED</keyObject>
+<referredKeyID>2650C69D-942E-A2CF-E126-AA323BCDC5ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRODUCTLINE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
